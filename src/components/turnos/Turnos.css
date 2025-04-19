@@ -1,0 +1,45 @@
+.admin-login {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .admin-login input {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+  }
+  
+  .admin-login button {
+    padding: 8px 12px;
+    background: #b40000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .admin-login button:hover {
+    background: #800000;
+  }
+  
+  .eliminar-btn {
+    background: #b40000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    transition: background 0.2s;
+  }
+  
+  .eliminar-btn:hover {
+    background: #800000;
+  }
