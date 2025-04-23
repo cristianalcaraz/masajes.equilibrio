@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/masajes.equilibrio"> {/* 👈 AÑADÍ ESTO */}
+    <BrowserRouter basename="/"> {/* 👈 AÑADÍ ESTO */}
       <App />
     </BrowserRouter>
   </StrictMode>
