@@ -2,10 +2,11 @@
   "name": "masajes.equilibrio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://cristianalcaraz.github.io/masajes.equilibrio",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/masajes.equilibrio/",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -18,7 +19,9 @@
     "@react-google-maps/api": "^2.20.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.5.0"
+    "react-router-dom": "^7.5.0",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

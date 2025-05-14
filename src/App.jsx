@@ -3,6 +3,9 @@ import Cuerpo from './components/cuerpo/Cuerpo'
 import './App.css'
 import Footer from './components/footer/Footer'
 import Turnos from './components/turnos/Turnos'
+import Contacto from './components/contacto/Contacto.jsx';
+
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -13,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Cuerpo />} />
         <Route path="/turnos" element={<Turnos />} />
+        <Route path="/contacto" element={<Contacto/>} />
       </Routes>
       <Footer />
       <a

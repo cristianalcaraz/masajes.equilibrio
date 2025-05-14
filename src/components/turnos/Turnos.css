@@ -1,8 +1,9 @@
 .admin-login {
-    margin-top: 15px;
+    margin-top: 30px;
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: center;
   }
   
   .admin-login input {
@@ -42,4 +43,16 @@
   
   .eliminar-btn:hover {
     background: #800000;
+  }
+  .turnos-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    
+  }
+  .admin-login{
+    margin: auto;
+    margin-block-start: 2rem;
   }
