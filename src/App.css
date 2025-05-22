@@ -133,3 +133,6 @@ p {
   background-color: #128C7E;
   transform: scale(1.1);
 }
+html, body {
+  overflow-x: hidden;
+}

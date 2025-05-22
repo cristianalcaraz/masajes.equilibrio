@@ -18,6 +18,7 @@
     "@mui/material": "^7.0.2",
     "@react-google-maps/api": "^2.20.6",
     "react": "^19.0.0",
+    "react-calendly": "^4.3.1",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.5.0",
     "react-slick": "^0.30.3",

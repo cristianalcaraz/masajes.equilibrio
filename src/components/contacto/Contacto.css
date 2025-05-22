@@ -1,16 +1,21 @@
 .contacto-container {
     min-height: calc(100vh - 180px);
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #f8f9fa;
-    padding: 1rem;
+    padding: 2rem;
+}
+
+.contacto-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
 }
 
 form {
-    width: 90%;
-    max-width: 500px;
+    width: 100%;
     background: white;
     padding: 2rem;
     border-radius: 15px;
@@ -24,23 +29,6 @@ form {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-}
-
-label {
-    color: #555;
-    font-size: 0.9rem;
-    font-weight: 500;
-}
-
-form h2 {
-    color: #333;
-    text-align: center;
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.form-group {
     margin-bottom: 25px;
 }
 
@@ -51,9 +39,17 @@ form h2 {
 label {
     display: block;
     margin-bottom: 8px;
-    font-weight: 500;
     color: #495057;
     font-size: 14px;
+    font-weight: 500;
+}
+
+form h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 input,
@@ -107,9 +103,14 @@ button[type="submit"]:active {
     box-shadow: none;
 }
 
-@media (max-height: 600px) {
+@media (max-width: 768px) {
+    .contacto-content {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
     .contacto-container {
-        padding: 0.5rem;
+        padding: 1rem;
     }
 
     form {
@@ -131,4 +132,13 @@ button[type="submit"]:active {
     button[type="submit"] {
         padding: 0.5rem;
     }
+
+}
+.map-section{
+    width: 90%;
+    height: 450px;
+    display:flex;
+    justify-content:end;
+    align-items: center;
+    border:#333
 }
